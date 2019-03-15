@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Hello React!</title>
+<script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+<script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+<script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+<script type="text/javascript" src="./iconfont/iconfont.js"></script>
+</head>
+<body>
+<div id="root">
+</div>
+<script type="text/babel">
+ReactDOM.render(
+	<div>
+	    <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#iconkeji-"></use>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#iconwugui"></use>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icongongsi"></use>
+            </svg>
+	</div>,
+	document.getElementById('root')
+);
+</script>
+<style>
+.icon{
+	font-size:50px;
+}
+.icon {
+       width: 5em; height: 5em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+}
+</style>
+</body>
+</html>

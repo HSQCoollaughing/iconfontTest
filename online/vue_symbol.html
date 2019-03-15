@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://at.alicdn.com/t/font_1089427_ba0nrqm20i.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        {{message}}
+        <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconkeji-"></use>
+        </svg>
+        <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconwugui"></use>
+        </svg>
+        <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icongongsi"></use>
+        </svg>
+    </div>
+    <script>
+        new Vue({
+            el:'#root',
+            data:{
+                message:'吴家宝是男神'
+            }
+        })
+    </script>
+    <style>
+    .icon {
+       width: 5em; height: 5em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
+    </style>
+</body>
+</html>
